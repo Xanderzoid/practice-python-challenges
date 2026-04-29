@@ -1,3 +1,5 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ## Milestone Year Calculator
 
 A lightweight Python command-line utility that calculates exactly when a user will turn 100 years old.

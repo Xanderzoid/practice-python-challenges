@@ -1,2 +1,11 @@
 *.todo
 *.sh
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pytest artifacts
+.pytest_cache/

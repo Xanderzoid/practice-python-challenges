@@ -15,4 +15,7 @@ include = '\.pyi?$'
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["src/project_01"]
+pythonpath = [
+    "src/project_01", 
+    "src/project_02"
+    ]
