@@ -38,6 +38,17 @@ def get_valid_age(prompt: str) -> int:
 
 def run_milestone_app():
     """Logs to the console the name of the user and the year they turn 100."""
+    ascii_art = """                 
+                 ###                                       
+                ##  #                                      
+               ## ####                                     
+              ##  #   #             =======================
+             ## #### ###            B L X   D A T A M I N E
+            ##  #    #  #           =======================
+           ## ####  ######               [Est. 2026]       
+          ##  #   ###     #                                
+         ## #### ##  ##  ###                                """
+    print(ascii_art)
     name_prompt = str(input("Enter your name: "))
     age_prompt = get_valid_age("Enter your age: ")
     century_year = cal_century_year(age_prompt)
