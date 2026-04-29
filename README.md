@@ -1,5 +1,17 @@
 # Practice Python Challenge Index
 
+## Project Overview
+This repository serves as a log of my 40 Python Challenge journey. The goal is to cultivate a understanding of Pythonic principles, modular software design, and test-driven development (TDD).
+
+### Primary Objectives
+Algorithmic Proficiency: Solving 40 progressive logic challenges focusing on data structures and computational efficiency.
+
+Unix Design Philosophy: Implementing modular code where each function performs a single, discrete task.
+
+Complexity Analysis: Documenting the Big O complexity and performance characteristics of each solution.
+
+## Challenges summary
+
 This is a technical summary of the 40 coding challenges from PracticePython.org, including their functional purpose and computational complexity.
 
 | # | Challenge | Description | Complexity |
