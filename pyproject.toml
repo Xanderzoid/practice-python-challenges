@@ -1,0 +1,18 @@
+[project]
+name = "python-40-challenge"
+version = "0.1.0"
+description = "A log of my Python programming journey and challenge solutions."
+authors = [{ name = "Xanderzoid" }]
+dependencies = [
+    "pytest",
+    "black",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+include = '\.pyi?$'
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src/project_01"]
