@@ -18,5 +18,6 @@ testpaths = ["tests"]
 pythonpath = [
     "src/project_01",
     "src/project_02",
-    "src/project_03"
+    "src/project_03",
+    "src/project_04"
 ]
