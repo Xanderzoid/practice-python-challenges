@@ -2,7 +2,7 @@
 
 ### Acknowledgments & References
 
-These coding challenges are sourced from the [Practice Python](https://www.practicepython.org/) website, which offers progressive exercises for beginners and experienced developers.
+These coding challenges are sourced from the [Practice Python](https://www.practicepython.org/) website, which offers progressive exercises for beginners and experienced developers.The exercise prompts are used under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
 ### Project Dependencies & Testing
 
