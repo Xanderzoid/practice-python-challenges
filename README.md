@@ -1,5 +1,13 @@
 # Practice Python Challenge Index
 
+### Acknowledgments & References
+
+These coding challenges are sourced from the [Practice Python](https://www.practicepython.org/) website, which offers progressive exercises for beginners and experienced developers.
+
+### Project Dependencies & Testing
+
+To test and lint the projects, ensure `pytest` and `black` are installed:
+
 ## Project Overview
 This repository serves as a log of my 40 Python Challenge journey. The goal is to cultivate a understanding of Pythonic principles, modular software design, and test-driven development (TDD).
 
