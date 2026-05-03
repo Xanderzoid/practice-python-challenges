@@ -1,6 +1,10 @@
 import pytest
 from datetime import date
-from script_project_01 import cal_century_year, birthday_message, get_valid_age
+from script_project_01 import (
+    cal_century_year,
+    birthday_message,
+    get_valid_age,
+)
 
 
 @pytest.fixture
