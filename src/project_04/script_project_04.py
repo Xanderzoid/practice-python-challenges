@@ -11,10 +11,10 @@ def intro_msg() -> str:
                  ###                                       
                 ##  #                                      
                ## ####                                     
-              ##  #   #             =======================
-             ## #### ###            B L X   D A T A M I N E
-            ##  #    #  #           =======================
-           ## ####  ######               [Est. 2026]       
+              ##  #   #             =========================
+             ## #### ###            B L X   D A T A . M I N E
+            ##  #    #  #           =========================
+           ## ####  ######                 [Est. 2026]       
           ##  #   ###     #                                
          ## #### ##  ##  ###                                """
     msg = "This CLI app that takes a number from a user then prints all divisors of that number."

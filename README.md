@@ -2,11 +2,7 @@
 
 ### Acknowledgments & References
 
-These coding challenges are sourced from the [Practice Python](https://www.practicepython.org/) website, which offers progressive exercises for beginners and experienced developers.The exercise prompts are used under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
-
-### Project Dependencies & Testing
-
-To test and lint the projects, ensure `pytest` and `black` are installed:
+These coding challenges are sourced from the [Practice Python](https://www.practicepython.org/) website, which offers progressive exercises for beginners and experienced developers. The exercise prompts are used under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
 ## Project Overview
 This repository serves as a log of my 40 Python Challenge journey. The goal is to cultivate a understanding of Pythonic principles, modular software design, and test-driven development (TDD).
@@ -17,6 +13,25 @@ Algorithmic Proficiency: Solving 40 progressive logic challenges focusing on dat
 Unix Design Philosophy: Implementing modular code where each function performs a single, discrete task.
 
 Complexity Analysis: Documenting the Big O complexity and performance characteristics of each solution.
+
+### Installation & Setup
+This project uses `pyproject.toml` to manage dependencies. To set up the development environment:
+
+1. Clone the repository: `git clone https://github.com/Xanderzoid/practice-python-challenges`
+2. Create a virtual environment: `python -m venv venv`
+3. Activate and install:
+    
+    - Windows: `venv\Scripts\activate && pip install -e`
+
+    - Unix/macOS: `source venv/bin/activate && pip install -e`
+
+### Project Dependencies & Testing
+
+The project uses pytest for TDD and black for formatting.
+
+- Run all tests: `pytest`
+
+- Check formatting: `black --check`
 
 ## Challenges summary
 
@@ -72,5 +87,3 @@ This is a technical summary of the 40 coding challenges from PracticePython.org,
 
 ---
 *Note: Web scraping tasks (17, 19) are I/O intensive; computational complexity refers to the processing of the retrieved DOM.*
-challenge_index.md
-Displaying challenge_index.md.

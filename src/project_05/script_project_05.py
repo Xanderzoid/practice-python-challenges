@@ -17,10 +17,10 @@ def intro_msg() -> str:
                  ###                                       
                 ##  #                                      
                ## ####                                     
-              ##  #   #             =======================
-             ## #### ###            B L X   D A T A M I N E
-            ##  #    #  #           =======================
-           ## ####  ######               [Est. 2026]       
+              ##  #   #             =========================
+             ## #### ###            B L X   D A T A . M I N E
+            ##  #    #  #           =========================
+           ## ####  ######                 [Est. 2026]       
           ##  #   ###     #                                
          ## #### ##  ##  ###                                """
     msg = "This CLI app finds the overlaping numbers in two randomly generated lists."
