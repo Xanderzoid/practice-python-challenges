@@ -23,5 +23,6 @@ pythonpath = [
     "src/project_05",
     "src/project_06",
     "src/project_07",
-    "src/project_08"
+    "src/project_08",
+    "src/project_09"
 ]
