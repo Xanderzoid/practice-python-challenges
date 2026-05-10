@@ -1,5 +1,5 @@
 import pytest
-from script_project_04 import (
+from project_04.script_project_04 import (
     validate_input,
     cal_divisors,
 )

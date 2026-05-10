@@ -1,5 +1,5 @@
 import pytest
-from script_project_09 import validate_input, compare_num
+from project_09.script_project_09 import validate_input, compare_num
 
 
 def test_validate_input_type_valid():

@@ -1,5 +1,5 @@
 import pytest
-from script_project_03 import (
+from project_03.script_project_03 import (
     display_result,
     validate_input,
     compute_list,

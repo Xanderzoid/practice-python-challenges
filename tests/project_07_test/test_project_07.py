@@ -1,5 +1,5 @@
 import pytest
-from script_project_07 import extract_even
+from project_07.script_project_07 import extract_even
 
 
 def test_extract_even():

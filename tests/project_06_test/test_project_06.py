@@ -1,5 +1,5 @@
 import pytest
-from script_project_06 import compare_reversed_str, validate_input
+from project_06.script_project_06 import compare_reversed_str, validate_input
 
 
 def test_validate_input():

@@ -1,5 +1,10 @@
 import pytest
-from script_project_10 import roll_dataset, merge_dataset, avg_dataset, min_max_dataset
+from project_10.script_project_10 import (
+    roll_dataset,
+    merge_dataset,
+    avg_dataset,
+    min_max_dataset,
+)
 
 
 @pytest.fixture

@@ -1,5 +1,5 @@
 import pytest
-from script_project_02 import result_msg, validate_input, identify_even
+from project_02.script_project_02 import result_msg, validate_input, identify_even
 
 
 def test_result_msg():

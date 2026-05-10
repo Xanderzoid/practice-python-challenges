@@ -1,5 +1,5 @@
 import pytest
-from script_project_08 import get_hand, generate_hand, game_logic, hand_dict
+from project_08.script_project_08 import get_hand, generate_hand, game_logic, hand_dict
 
 
 def test_hand_dict():

@@ -1,5 +1,5 @@
 import pytest
-from script_project_05 import (
+from project_05.script_project_05 import (
     gen_num_list,
     list_intersect,
     validate_input,
