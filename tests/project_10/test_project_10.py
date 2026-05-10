@@ -14,10 +14,8 @@ def sample_data_01():
 
 @pytest.fixture
 def sample_data_02():
-    data = {}
-    for i in range(1, 13):
-        data[f"{i}"] = 1
-    data["1"] = 2  # 4 rolls
+    data = {f"{i}": 1 for i in range(1, 13)}
+    data["1"] = 2  # 12 rolls
     data["3"] = 2
     data["6"] = 0
     data["11"] = 0
@@ -26,25 +24,19 @@ def sample_data_02():
 
 @pytest.fixture
 def sample_data_03():
-    data = {}
-    for i in range(1, 13):
-        data[f"{i}"] = 1
+    data = {f"{i}": 1 for i in range(1, 13)}
     return data
 
 
 @pytest.fixture
 def sample_data_04():
-    data = {}
-    for i in range(1, 13):
-        data[f"{i}"] = 2
+    data = {f"{i}": 2 for i in range(1, 13)}
     return data
 
 
 @pytest.fixture
 def sample_data_05():
-    data = {}
-    for i in range(1, 13):
-        data[f"{i}"] = 3
+    data = {f"{i}": 3 for i in range(1, 13)}
     return data
 
 
