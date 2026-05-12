@@ -33,6 +33,28 @@ The project uses pytest for TDD and black for formatting.
 
 - Check formatting: `black --check`
 
+### File structure
+```text
+.
+├── src/
+│   ├── project_01/
+│   │   ├── __init__.py
+│   │   └── script_project_01.py
+│   ├── project_02/
+│   │   ├── __init__.py
+│   │   └── script_project_02.py
+│   └── etc/
+├── tests/
+│   ├── project_01_test/
+│   │   └── test_project_01.py
+│   ├── project_02_test/
+│   │   └── test_project_02.py
+│   └── etc/
+├── LICENSE.txt
+├── pyproject.toml
+└── README.md
+```
+
 ## Challenges summary
 
 This is a technical summary of the 40 coding challenges from PracticePython.org, including their functional purpose and computational complexity.
