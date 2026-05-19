@@ -1,6 +1,7 @@
 *.todo
 *.sh
-
+build/
+*egg-info/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc
