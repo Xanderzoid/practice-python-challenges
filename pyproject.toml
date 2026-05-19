@@ -6,6 +6,7 @@ authors = [{ name = "Xanderzoid" }]
 dependencies = [
     "pytest",
     "black",
+    "beautifulsoup4>=4.12.0",
 ]
 
 [tool.black]
