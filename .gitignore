@@ -1,6 +1,8 @@
 *.todo
 *.sh
 *.env
+*.bashrc
+*.zshrc
 build/
 *egg-info/
 # Byte-compiled / optimized / DLL files
