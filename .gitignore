@@ -1,5 +1,6 @@
 *.todo
 *.sh
+*.env
 build/
 *egg-info/
 # Byte-compiled / optimized / DLL files
