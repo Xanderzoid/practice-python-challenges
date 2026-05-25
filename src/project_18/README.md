@@ -5,7 +5,7 @@
 
 ## Cow and Bull Game (Combinatorial State Matcher)
 
-A lightweight CLI execution utility designed to coordinate an interactive game state engine, perform unique random sequence permutations, and cross-evaluate user multi-index strings against a hidden array target without performance degeneration.
+A CLI execution utility designed to coordinate an interactive game state engine, perform unique random sequence permutations, and cross-evaluate user multi-index strings against a hidden array target without performance degeneration.
 
 ### 1. Description
 This application handles the core operational lifecycle of the classic combinatorial cryptographic codebreaking puzzle "Cows and Bulls". The platform dynamically generates non-repeating digit permutations, processes asynchronous terminal user inputs, routes system control operations, and evaluates exact positional vs. value matching metrics while maintaining linear processing metrics.
