@@ -50,7 +50,7 @@ def write_to_file(quotes: list[str], path: str) -> bool:
     for quote in quotes:
         data += f"{quote}\n"
     try:
-        with open(FILEPATH, "w") as file:
+        with open(path, "w") as file:
             file.write(data)
         return True
     except OSError:
