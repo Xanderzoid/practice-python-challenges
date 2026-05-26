@@ -3,6 +3,7 @@
 *.env
 *.bashrc
 *.zshrc
+*.windsurfignore
 build/
 *egg-info/
 # Byte-compiled / optimized / DLL files
