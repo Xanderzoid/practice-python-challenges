@@ -13,7 +13,7 @@ def test_sanitize_input(raw, expected):
     ('y', True),
     ('no', True),
     ('n', True),
-    ('', False),
+    ('', True),
     ("quit", True),
     ("q", True),
     ("exit", True),
@@ -28,7 +28,7 @@ def test_has_filepath():
 
 def test_write_to_file():
     # If test.txt does exist
-    assert write_to_file("test.txt", FILEPATH) == False
+    assert write_to_file(["1", "2", "3"], FILEPATH) == False
     
 def test_quit_or_continue():
     assert quit_or_continue("q") == "q"

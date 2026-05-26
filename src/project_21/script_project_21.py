@@ -24,7 +24,7 @@ def sanitize_input(raw: str) -> str:
 #   validate
 def validate_input(cleaned: str) -> bool:
     """Checks if the user entered only letters."""
-    if raw == "":
+    if cleaned == "":
         return True
     else:
         return cleaned.isalpha()
