@@ -121,7 +121,7 @@ def main() -> None:
             print(f"Invalid Input: {raw}. Enter 'y' or 'n' only.")
             continue
         if has_filepath(filepath):
-            new_filename = find_new_filename(FILEPATH)
+            new_filename = find_new_filename(filepath)
             print(f"File already exist. New file name: {new_filename}")
             filepath = new_filename
         status = write_to_file(QUOTES, filepath)
