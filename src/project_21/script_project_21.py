@@ -8,10 +8,10 @@ A CLI app that write to file a list of qoutes.
 from pathlib import Path
 
 # Global Constants
-QOURTE_EINSTEIN = "'The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.' -- Albert Einstein"
+QUOTE_EINSTEIN = "'The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.' -- Albert Einstein"
 QUOTE_JANE = "'The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.' -- Jane Austen"
 QUOTE_MONROE = "'Imperfection is beauty, madness is genius and it is better to be absolutely ridiculous than absolutely boring.' -- Marilyn Monroe"
-QUOTES = [QOURTE_EINSTEIN, QUOTE_JANE, QUOTE_MONROE]
+QUOTES = [QUOTE_EINSTEIN, QUOTE_JANE, QUOTE_MONROE]
 
 FILEPATH = "./data/quotes"
 
@@ -24,7 +24,10 @@ def sanitize_input(raw: str) -> str:
 #   validate
 def validate_input(cleaned: str) -> bool:
     """Checks if the user entered only letters."""
-    return cleaned.isalpha()
+    if raw == "":
+        return True
+    else:
+        return cleaned.isalpha()
 
 #   User commmand
 def quit_or_continue(cleaned: str) -> str:
